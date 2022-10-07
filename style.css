@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.container{
+    width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+.turnonoff{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dark{
+    border: solid 3px blueviolet;
+    width: 110px;
+    height: 110px;
+    font-size: 25px;
+    background: blueviolet;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 10px 11px 20px 1px grey;
+}
+.dark:hover{
+background-color: purple;
+color: blueviolet;
+transform: scale(1.1);
+}
+.light{
+    border: solid 3px blueviolet;
+    width: 110px;
+    height: 110px;
+    font-size: 25px;
+    background: blueviolet;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 10px 11px 20px 1px grey;
+    margin-left: 545px;
+    margin-top: 75px;
+}
+.light:hover{
+    
+        background-color: purple;
+        color: blueviolet;
+        transform: scale(1.1);
+        
+}
+.dol{
+   
+    color: blueviolet;
+    font-size: 45px;
+    margin-left: -110px;
+    margin-bottom: 25px;
+}
+.section1{
+    margin-left: 460px;
+    margin-top: 55px;
+}
+.sum{
+    width: 390px;
+    height: 40px;
+    border: solid 3px blueviolet;
+    border-radius: 10px;
+    margin-left: -340px;
+    
+}
+
+.off{
+    width: 390px;
+    height: 40px;
+    border: solid 3px blueviolet;
+    border-radius: 10px;
+    margin-left: 95px;
+    
+}
+.cli{
+    margin-left: 12px;
+    width: 65px;
+    height: 38px;
+    border: solid 3px blueviolet;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+    transition: 0.5s;
+    font-size: 16px;
+    box-shadow: 10px 11px 20px 1px grey;
+}
+.cli:hover{
+    
+    background-color: purple;
+    color: blueviolet;
+    transform: scale(1.1);
+    
+}
+.form{
+    display: flex;
+}
